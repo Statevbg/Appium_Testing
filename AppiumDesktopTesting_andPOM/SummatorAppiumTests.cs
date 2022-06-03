@@ -16,7 +16,6 @@ namespace AppiumTesting
         public void OpenApp()
         {
             this.options = new AppiumOptions() { PlatformName = "Windows" };
-          //  options.AddAdditionalCapability(MobileCapabilityType.PlatformName, AppiumServer);
             options.AddAdditionalCapability(MobileCapabilityType.App, @"C:\SummatorDesktopApp.exe");
             this.driver = new WindowsDriver<WindowsElement>(new Uri(AppiumServer), options);
         }
