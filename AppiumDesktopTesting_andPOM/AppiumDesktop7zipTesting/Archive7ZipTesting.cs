@@ -21,12 +21,16 @@ namespace Archive7ZipTesting
         [SetUp]
         public void OpenApp()
         {
-            this.options = new AppiumOptions() { PlatformName = "Windows" };
+            
             var appiumOptionsDesktop = new AppiumOptions() { PlatformName = "Windows" };
             appiumOptionsDesktop.AddAdditionalCapability("app", "Root");
             desktopDriver = new WindowsDriver<WindowsElement>(new Uri(AppiumServer), appiumOptionsDesktop);
+
+            this.options = new AppiumOptions() { PlatformName = "Windows" };
             options.AddAdditionalCapability(MobileCapabilityType.App, @"C:\Program Files\7-Zip\7zFM");
             this.driver = new WindowsDriver<WindowsElement>(new Uri(AppiumServer), options);
+
+            
             //creating directory
             workDir = Directory.GetCurrentDirectory() + @"\workdir";
             //check directory path and act 
