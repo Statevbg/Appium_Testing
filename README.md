@@ -10,7 +10,8 @@ APPIUM 7 ZIP DESKTOP TESTING.
 - you will need to start Appium-desktop server
 
 APPIUM SUMMATOR MOBILE TESTING.
--install Android Studio -> https://developer.android.com/studio
--install Appium Insprector -> https://github.com/appium/appium-inspector
--download Android Summator -> https://github.com/nakov/AndroidApp-Summator
+- install Android Studio -> https://developer.android.com/studio
+- install Appium Insprector -> https://github.com/appium/appium-inspector
+- download Android Summator -> https://github.com/nakov/AndroidApp-Summator
+
 
