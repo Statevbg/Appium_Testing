@@ -13,3 +13,4 @@ APPIUM SUMMATOR MOBILE TESTING.
 -install Android Studio -> https://developer.android.com/studio
 -install Appium Insprector -> https://github.com/appium/appium-inspector
 -download Android Summator -> https://github.com/nakov/AndroidApp-Summator
+
